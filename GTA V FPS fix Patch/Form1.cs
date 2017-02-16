@@ -23,13 +23,14 @@ namespace GTA_V_FPS_fix_Patch
             try
             {
                 String path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-                string orgFile = "settings.xml";
+                string orgFile = "Rockstar Games/GTA V/settings.xml";
                 string repFile = GTA_V_FPS_fix_Patch.Resource1.settings;
                 orgFile = System.IO.Path.Combine(path, orgFile);
                 File.Delete(orgFile);
                 var fileStream = File.Create(orgFile);
                 fileStream.Close();
-                File.AppendAllText(orgFile, repFile); 
+                File.AppendAllText(orgFile, repFile);
+                MessageBox.Show("Success!");
             }
             catch (Exception k)
             {
