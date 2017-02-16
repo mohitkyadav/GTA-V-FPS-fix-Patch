@@ -37,5 +37,11 @@ namespace GTA_V_FPS_fix_Patch
                 MessageBox.Show(k.ToString());
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AboutBox1 a = new AboutBox1();
+            a.Show();
+        }
     }
 }
