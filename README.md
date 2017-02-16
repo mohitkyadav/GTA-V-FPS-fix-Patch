@@ -13,3 +13,6 @@ A Patch to GTA V settings.xml file.
 <h3>To be added</h3>
 1.  To choose the DirectX version.
 2.  Steam support.
+
+<h3>Download Link</h3>
+https://sourceforge.net/projects/gta-v-fps-fix-patch/
