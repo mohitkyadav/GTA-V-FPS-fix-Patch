@@ -6,7 +6,7 @@ A Patch to GTA V settings.xml file.
 1.  .NET Framework 4.5 or above.
 2.  Visual Studio 2015 update 3 or above.
 
-
+<h3>Why</h3>
 1.  Allows To run GTA V on low end PCs.
 2.  Supports No-steam version of GTA V.
 
