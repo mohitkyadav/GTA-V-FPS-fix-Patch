@@ -26,15 +26,10 @@ namespace GTA_V_FPS_fix_Patch
                 string orgFile = "settings.xml";
                 string repFile = GTA_V_FPS_fix_Patch.Resource1.settings;
                 orgFile = System.IO.Path.Combine(path, orgFile);
-                //File.SetAttributes(orgFile, FileAttributes.Normal);
-                //File.Delete(orgFile);
-               
-                bool a = Uri.IsWellFormedUriString(repFile, UriKind.RelativeOrAbsolute);
-                if(a == false)
-                {
-                    MessageBox.Show("No");
-                }
-                File.Copy(repFile, orgFile, true);
+                File.Delete(orgFile);
+                var fileStream = File.Create(orgFile);
+                fileStream.Close();
+                File.AppendAllText(orgFile, repFile); 
             }
             catch (Exception k)
             {
