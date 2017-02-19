@@ -80,7 +80,6 @@
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(549, 379);
             this.Name = "Form1";
-            this.Opacity = 0.82D;
             this.Text = "V 0.1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
