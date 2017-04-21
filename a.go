@@ -8,7 +8,7 @@ import (
 // N = Limit, change N to check primes till N
 const N = 20
 
-// SieveOfEratosthenes() Main algorithm, bool type
+// SieveOfEratosthenes Main algorithm, bool type
 func SieveOfEratosthenes()[N + 1] bool {
     var primes[N + 1] bool
     sqrtOfn := int(math.Floor(math.Sqrt(N))+1)
