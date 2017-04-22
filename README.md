@@ -9,13 +9,9 @@ A portable tool Patch settings.xml in GTA V.
 
 <h3>Why</h3>
 
-1.  Allows To run GTA V on low end PCs.
-2.  Supports No-steam version of GTA V.
+1.  Allows you to run GTA-V on low end PCs.
+2.  Supports only non-steam version of GTA-V.
 
-<h3>To be added</h3>
-
-1.  To choose the DirectX version.
-2.  Steam support.
 
 
 
